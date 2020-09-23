@@ -6,7 +6,7 @@ $(document).ready(function () {
         if (currentIndex == imageFile.length) {
             currentIndex = 0;
         }
-        $(".trans-image").css('background-image', 'url("../assets/img/' + imageFile[currentIndex++] + '")')
+        $(".trans-image").css('background-image', 'url("assets/img/' + imageFile[currentIndex++] + '")')
             .css('background-position','top right')
             .css('background-size','cover');
        }, 3000);
