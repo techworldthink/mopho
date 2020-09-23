@@ -5,3 +5,10 @@
     background:transparent;
     background-color: rgba(0,0,0,.5);
 }
+.r4para{
+    text-align: justify;
+  text-justify: inter-word;
+  
+  letter-spacing: 1px;
+line-height: 30px;
+}
