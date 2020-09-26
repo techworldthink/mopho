@@ -8,7 +8,7 @@ $(document).ready(function () {
         }
         $(".trans-image").css('background-image', 'url("assets/img/background/' + imageFile[currentIndex++] + '")')
             .css('background-position','top right')
-            .css('background-size','cover').animate({'opacity':'.8'},1000).animate({'opacity':'1'},1500);
+            .css('background-size','cover').animate({'opacity':'.7'},1).animate({'opacity':'1'},1500);
        }, 6000);
 
 });
